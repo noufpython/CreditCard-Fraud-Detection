@@ -1,13 +1,41 @@
 
-# Credit Card Fraud Detection Project
 
-This repository contains the full implementation of a machine learning pipeline to detect fraudulent credit card transactions.
+## 🛠️ Machine Learning Models Implemented
 
-## Folder Structure:
-- `Data/original_data/`: Contains the original Kaggle dataset.
-- `Data/preprocessed_data/`: Contains training/testing splits (X, Y).
-- `Data/Results/`: Contains prediction outputs from all models.
+- Logistic Regression 
+- Random Forest 
+- K-Nearest Neighbors (KNN) 
+- Naive Bayes 
+- Decision Tree 
+- Artificial Neural Network (ANN using TensorFlow) 
+- Linear Regression (baseline) 
 
-## Main Files:
-- `code.py`: Full Python code for preprocessing, training, and evaluation.
-- `report.pdf`: Final PDF report submitted for grading.
+## 📊 Preprocessing
+
+- **Standardization** of `Amount` and `Time` features using `StandardScaler`
+- **SMOTE** applied to handle class imbalance on training data
+- **train_test_split** with `stratify=y` to preserve label distribution
+
+## 📈 Evaluation Metrics
+
+Each model was evaluated on:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC AUC Score
+
+Visual results are stored under `Visualizations/`.
+
+## 📄 Report and Submission
+
+- `report.pdf`: Answers all questions from Q1 to Q17
+- `final_reflection_20_lines.pdf`: Summary reflection (as required in 20 lines, font size 20)
+- Link to this GitHub is included in the final report
+
+## 🔗 Submission Link
+
+This repository is part of the course project submitted on [Blackboard LMS] and includes all necessary components.
+
+> **GitHub Link for Submission**:  
+> [https://github.com/noufpython/CreditCard-Fraud-Detection](https://github.com/noufpython/CreditCard-Fraud-Detection)
